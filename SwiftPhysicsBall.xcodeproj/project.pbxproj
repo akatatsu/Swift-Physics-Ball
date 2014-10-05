@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5082DDAC19E0C82200B65C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082DDAB19E0C82200B65C6F /* AppDelegate.swift */; };
+		5082DDAE19E0C82200B65C6F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5082DDAD19E0C82200B65C6F /* GameScene.sks */; };
+		5082DDB019E0C82200B65C6F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082DDAF19E0C82200B65C6F /* GameScene.swift */; };
+		5082DDB219E0C82200B65C6F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082DDB119E0C82200B65C6F /* GameViewController.swift */; };
+		5082DDB519E0C82200B65C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5082DDB319E0C82200B65C6F /* Main.storyboard */; };
+		5082DDB719E0C82200B65C6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5082DDB619E0C82200B65C6F /* Images.xcassets */; };
+		5082DDBA19E0C82200B65C6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5082DDB819E0C82200B65C6F /* LaunchScreen.xib */; };
+		5082DDC619E0C82200B65C6F /* SwiftPhysicsBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082DDC519E0C82200B65C6F /* SwiftPhysicsBallTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5082DDC019E0C82200B65C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5082DD9E19E0C82200B65C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5082DDA519E0C82200B65C6F;
+			remoteInfo = SwiftPhysicsBall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5082DDA619E0C82200B65C6F /* SwiftPhysicsBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPhysicsBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5082DDAA19E0C82200B65C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5082DDAB19E0C82200B65C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5082DDAD19E0C82200B65C6F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5082DDAF19E0C82200B65C6F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5082DDB119E0C82200B65C6F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5082DDB419E0C82200B65C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5082DDB619E0C82200B65C6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5082DDB919E0C82200B65C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5082DDBF19E0C82200B65C6F /* SwiftPhysicsBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPhysicsBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5082DDC419E0C82200B65C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5082DDC519E0C82200B65C6F /* SwiftPhysicsBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPhysicsBallTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5082DDA319E0C82200B65C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5082DDBC19E0C82200B65C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5082DD9D19E0C82200B65C6F = {
+			isa = PBXGroup;
+			children = (
+				5082DDA819E0C82200B65C6F /* SwiftPhysicsBall */,
+				5082DDC219E0C82200B65C6F /* SwiftPhysicsBallTests */,
+				5082DDA719E0C82200B65C6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5082DDA719E0C82200B65C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5082DDA619E0C82200B65C6F /* SwiftPhysicsBall.app */,
+				5082DDBF19E0C82200B65C6F /* SwiftPhysicsBallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5082DDA819E0C82200B65C6F /* SwiftPhysicsBall */ = {
+			isa = PBXGroup;
+			children = (
+				5082DDAB19E0C82200B65C6F /* AppDelegate.swift */,
+				5082DDAD19E0C82200B65C6F /* GameScene.sks */,
+				5082DDAF19E0C82200B65C6F /* GameScene.swift */,
+				5082DDB119E0C82200B65C6F /* GameViewController.swift */,
+				5082DDB319E0C82200B65C6F /* Main.storyboard */,
+				5082DDB619E0C82200B65C6F /* Images.xcassets */,
+				5082DDB819E0C82200B65C6F /* LaunchScreen.xib */,
+				5082DDA919E0C82200B65C6F /* Supporting Files */,
+			);
+			path = SwiftPhysicsBall;
+			sourceTree = "<group>";
+		};
+		5082DDA919E0C82200B65C6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5082DDAA19E0C82200B65C6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5082DDC219E0C82200B65C6F /* SwiftPhysicsBallTests */ = {
+			isa = PBXGroup;
+			children = (
+				5082DDC519E0C82200B65C6F /* SwiftPhysicsBallTests.swift */,
+				5082DDC319E0C82200B65C6F /* Supporting Files */,
+			);
+			path = SwiftPhysicsBallTests;
+			sourceTree = "<group>";
+		};
+		5082DDC319E0C82200B65C6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5082DDC419E0C82200B65C6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5082DDA519E0C82200B65C6F /* SwiftPhysicsBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5082DDC919E0C82200B65C6F /* Build configuration list for PBXNativeTarget "SwiftPhysicsBall" */;
+			buildPhases = (
+				5082DDA219E0C82200B65C6F /* Sources */,
+				5082DDA319E0C82200B65C6F /* Frameworks */,
+				5082DDA419E0C82200B65C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPhysicsBall;
+			productName = SwiftPhysicsBall;
+			productReference = 5082DDA619E0C82200B65C6F /* SwiftPhysicsBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5082DDBE19E0C82200B65C6F /* SwiftPhysicsBallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5082DDCC19E0C82200B65C6F /* Build configuration list for PBXNativeTarget "SwiftPhysicsBallTests" */;
+			buildPhases = (
+				5082DDBB19E0C82200B65C6F /* Sources */,
+				5082DDBC19E0C82200B65C6F /* Frameworks */,
+				5082DDBD19E0C82200B65C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5082DDC119E0C82200B65C6F /* PBXTargetDependency */,
+			);
+			name = SwiftPhysicsBallTests;
+			productName = SwiftPhysicsBallTests;
+			productReference = 5082DDBF19E0C82200B65C6F /* SwiftPhysicsBallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5082DD9E19E0C82200B65C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = akatatsu;
+				TargetAttributes = {
+					5082DDA519E0C82200B65C6F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5082DDBE19E0C82200B65C6F = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5082DDA519E0C82200B65C6F;
+					};
+				};
+			};
+			buildConfigurationList = 5082DDA119E0C82200B65C6F /* Build configuration list for PBXProject "SwiftPhysicsBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5082DD9D19E0C82200B65C6F;
+			productRefGroup = 5082DDA719E0C82200B65C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5082DDA519E0C82200B65C6F /* SwiftPhysicsBall */,
+				5082DDBE19E0C82200B65C6F /* SwiftPhysicsBallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5082DDA419E0C82200B65C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5082DDBA19E0C82200B65C6F /* LaunchScreen.xib in Resources */,
+				5082DDB719E0C82200B65C6F /* Images.xcassets in Resources */,
+				5082DDAE19E0C82200B65C6F /* GameScene.sks in Resources */,
+				5082DDB519E0C82200B65C6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5082DDBD19E0C82200B65C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5082DDA219E0C82200B65C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5082DDB019E0C82200B65C6F /* GameScene.swift in Sources */,
+				5082DDB219E0C82200B65C6F /* GameViewController.swift in Sources */,
+				5082DDAC19E0C82200B65C6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5082DDBB19E0C82200B65C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5082DDC619E0C82200B65C6F /* SwiftPhysicsBallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5082DDC119E0C82200B65C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5082DDA519E0C82200B65C6F /* SwiftPhysicsBall */;
+			targetProxy = 5082DDC019E0C82200B65C6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5082DDB319E0C82200B65C6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5082DDB419E0C82200B65C6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5082DDB819E0C82200B65C6F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5082DDB919E0C82200B65C6F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5082DDC719E0C82200B65C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5082DDC819E0C82200B65C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5082DDCA19E0C82200B65C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftPhysicsBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5082DDCB19E0C82200B65C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftPhysicsBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5082DDCD19E0C82200B65C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftPhysicsBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPhysicsBall.app/SwiftPhysicsBall";
+			};
+			name = Debug;
+		};
+		5082DDCE19E0C82200B65C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftPhysicsBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPhysicsBall.app/SwiftPhysicsBall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5082DDA119E0C82200B65C6F /* Build configuration list for PBXProject "SwiftPhysicsBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5082DDC719E0C82200B65C6F /* Debug */,
+				5082DDC819E0C82200B65C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5082DDC919E0C82200B65C6F /* Build configuration list for PBXNativeTarget "SwiftPhysicsBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5082DDCA19E0C82200B65C6F /* Debug */,
+				5082DDCB19E0C82200B65C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5082DDCC19E0C82200B65C6F /* Build configuration list for PBXNativeTarget "SwiftPhysicsBallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5082DDCD19E0C82200B65C6F /* Debug */,
+				5082DDCE19E0C82200B65C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5082DD9E19E0C82200B65C6F /* Project object */;
+}
