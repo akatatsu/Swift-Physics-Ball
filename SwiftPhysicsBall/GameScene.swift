@@ -9,37 +9,46 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         
-        self.addChild(myLabel)
+        println(self.frame)
+        physicsBody = SKPhysicsBody(edgeLoopFromRect: self.frame)
+        
+    }
+    
+    func createBall(position: CGPoint) -> SKShapeNode {
+        
+        let ball = SKShapeNode(circleOfRadius: 20.0)
+        ball.fillColor = SKColor.whiteColor()
+        ball.position = position
+        ball.name = "ball"
+        
+        ball.physicsBody = SKPhysicsBody(circleOfRadius: 20.0)
+        ball.physicsBody?.affectedByGravity = false
+        ball.physicsBody?.restitution = 0.9
+        ball.physicsBody?.linearDamping = 0;
+        ball.physicsBody?.friction = 0;
+        
+        ball.physicsBody?.velocity = CGVectorMake(CGFloat(arc4random() % 1000), CGFloat(arc4random() % 1000))
+        
+        return ball
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         /* Called when a touch begins */
         
         for touch: AnyObject in touches {
-            let location = touch.locationInNode(self)
-            
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
-            
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
-            sprite.position = location
-            
-            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-            
-            sprite.runAction(SKAction.repeatActionForever(action))
-            
-            self.addChild(sprite)
+            let location:CGPoint = touch.locationInNode(self)
+            self.addChild(self.createBall(location))
         }
     }
-   
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
+        
+        
     }
 }
+
+
